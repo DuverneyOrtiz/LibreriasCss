@@ -1,0 +1,108 @@
+.encabezado{
+	width: 100%;
+	height: 120px;
+	background: #4A94E9;
+	position:  fixed;
+	z-index: 1;
+}
+.fondo{
+	width: 100%;
+	height: 500px;
+	background: url("../../img/turismo5.jpg");
+	background-size: cover;
+	position: fixed;
+	top: 120px;
+	z-index: 1;
+}
+
+.contenedor{
+	position: relative;
+	z-index:3;
+}
+
+
+.size-font{
+	font-size: 10px;
+}
+
+.slogan{
+	height: 70px;
+	color: black;
+	font-size: 20px;
+	
+}
+
+.size-social{
+	font-size: 40px;
+	text-align: center;
+}
+
+figcaption{
+	text-align: center;
+}
+figure{
+	margin: 0px;
+}
+
+.font{
+	color: white;
+}
+
+
+.input-field label{
+	color: white;
+}
+
+.input-field .prefix.active {
+     color: black;
+   }
+
+.perfil{
+	padding: 20px;
+}
+
+.p{
+	font-size: 20px;
+	margin: 10px;
+	text-align: justify;
+}
+
+.autor{
+	font-size: 13px;
+}
+
+.date-loca{
+	font-size: 11px;
+	background: grey;
+}
+
+.label{
+	width: 48%;
+	display: inline-flex;
+	font-size: 12px;
+}
+.col{
+border: 0px solid black;
+}
+
+.imgcentrada{
+	width: 100%;
+}
+
+.imagenpublic{
+	width: 30%;
+}
+
+@media(max-width: 768px){
+	.imgcentrada{
+		width: 70%;
+	}
+
+	.imagenpublic{
+		width: 100%;
+	}
+	.label{
+		width: 100%;
+		display: inline-flex;
+	}
+}

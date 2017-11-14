@@ -1,0 +1,82 @@
+body{
+	background: url("../../img/paisaje.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	
+}
+div{
+	border: 0px solid black;
+	padding: 3px;
+}
+
+.img{
+
+	border: 2px solid black;
+	height: 100px;
+	width: 150px;
+
+}
+
+
+.size-icon{
+	font-size: 42px;
+}
+
+.size-bus{
+	font-size: 16px;
+
+}
+
+figure img{
+	border: 2px solid white;
+	border-radius: 2px;}
+
+.container{
+ background-color: rgba(76, 142, 183, 0.6);
+}
+
+.backgroundIzqu{
+	background:#B6D9ED;
+}
+
+.articulo{
+	background:#DFC1E7;
+	padding: 10px;
+	border-radius: 5px;
+	margin-bottom: 5px;
+}
+
+.comentario{
+	background:#DFC1E7;
+}
+
+.border-btn{
+	border-radius: 0px;
+}
+figure figcaption{
+	color:#F44EAC;
+}
+
+.border-izqu{
+	border-right: 1px solid white;
+}
+
+textarea{
+	height: 100px;
+}
+
+@media (max-width: 768px){
+	.card .row .column p{
+		font-size: 12px;
+	}
+	.border-izqu{
+	border-right: 0px;
+}
+
+}
+
+
+
+
+
+      
